@@ -1249,6 +1249,12 @@
 				}
 
 			table.default td {
+                background-color:#eaeaea;
+				padding: 0.5em 1em 0.5em 1em;
+			}
+
+            table.default td.alt {
+                background-color:#eeeeee;
 				padding: 0.5em 1em 0.5em 1em;
 			}
 
@@ -1260,6 +1266,8 @@
 			}
 
 			table.default thead {
+                color:#fff;
+                background-color:#fc8b00;
 				border-bottom: solid 2px #dddddd;
 			}
 
@@ -1329,8 +1337,8 @@
 		text-decoration: none;
 		cursor: pointer;
 		border: 0;
-		border-radius: 5px;
-		background: #d52349;
+		border-radius: 0;
+		background: #fe5614;
 		color: #fff !important;
 		font-weight: 700;
 		outline: 0;
@@ -1345,7 +1353,7 @@
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background: #e53359;
+			background: #ff4800;
 		}
 
 		input[type="button"]:active,
@@ -1869,7 +1877,7 @@
 				button.big,
 				.button.big {
 					font-size: 1.5em;
-					padding: 0.75em 1.5em 0.75em 1.5em;
+                    padding:100px;
 				}
 
 		/* List */
@@ -2594,3 +2602,7 @@
         font-weight:700;
         color:#fe5614;
     }
+
+footer {
+    text-align:center;
+}
