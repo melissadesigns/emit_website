@@ -1133,7 +1133,7 @@
     }
 
     h4 {
-        color:#fc9514;
+        color:#fe5614;
     }
 
     .center-text {
@@ -2600,9 +2600,12 @@
 
     b {
         font-weight:700;
-        color:#fe5614;
     }
 
 footer {
     text-align:center;
+}
+
+.indent {
+    text-indent: 50px;
 }
