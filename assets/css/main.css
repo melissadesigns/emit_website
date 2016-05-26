@@ -1069,7 +1069,7 @@
 /* Basic */
 
 	body {
-		background: #6b9800;
+		background: #333333; /* #6b9800 */
 		font-family: 'Open Sans', sans-serif; 
 		font-weight: 400;
 		color: #5d5d5d;
@@ -1756,7 +1756,6 @@
 			top: 0;
 			left: 0;
 			width: 100%;
-			background: url("images/bg01.png");
 			background-size: 100% 100%;
 			z-index: 0;
 			opacity: 0.5;
